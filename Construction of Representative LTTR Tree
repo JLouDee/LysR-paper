@@ -1,0 +1,16 @@
+Construction of Representative LTTR Tree
+
+1. CD Hit at 95%
+biolinux@biolinux-VirtualBox[biolinux] cd-hit -i galaxy_no_duplicates.fa -o seqs -c 0.95 -n 5 -M 0 
+================================================================
+
+2. Muscle Alignment
+biolinux@biolinux-VirtualBox[Creating_Fig1]  muscle -in seqs -phyiout reps_muscle
+
+3. Phyml Tree using
+http://www.atgc-montpellier.fr/phyml/, screenshot showing parameters attached seperately
+
+
+
+4. Visualise and export using web-based tool Interactive Tree Of Life https://itol.embl.de/
+
