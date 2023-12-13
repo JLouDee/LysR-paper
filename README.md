@@ -1,7 +1,10 @@
+Using Github as a place to show methods & resulting data for research paper:  "Comparative genomics reveals diversification of therapeutic target LysR-type transcriptional regulators in the nosocomial pathogen Pseudomonas aeruginosa 
+data directory contains all results from each step in the process. Broken into sub directories per section in paper."
 
-data directory contains all results from each step in the process. Broken into sub directories per section in paper. 
+Sections can be broken down as follows:
+.
+.
 
-methods directory contains code & screenshots.
 
 
 # Analysis of the distribution of LTTRs across the P. aeruginosa pangenome #
