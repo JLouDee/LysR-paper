@@ -1,8 +1,6 @@
 Using Github as a place to show methods & resulting data for research paper:  <i>"Comparative genomics reveals diversification of therapeutic target LysR-type transcriptional regulators in the nosocomial pathogen Pseudomonas aeruginosa"<i>
-Data directory contains all results from each step in the process. Broken into sub directories per section in paper.
 
 
-Sections can be broken down as follows:
 - Recovery of P. aeruginosa LTTR protein sequences from IMG Database. <br>
 **Programs used: cd-hit, command line ubuntu**<br>
 LTTR protein sequences were retrieved from all of the 699 available permanent, draft and finished P. aeruginosa genomes in the Integrated Microbial Genomes (IMG). The following protein conserved domain families with accession numbers COG0583, Pfam00126 and Pfam03466 were applied to identify ~260k LTTR homologues. These LTTR amino acid sequences were then filtered by removing duplicate sequences and sequences less than 150 amino acids and larger than 350 amino acids using the Biolinux command line.  The LTTR proteins (~86,000) were clustered into groups using the CD Hit program v4.6 (+OpenMP)  which uses a greedy clustering algorithm to group sequences together based on their length and similarity. A sequence identity threshold of 95% was used to cluster the sequences into groups with one representative LTTR per group. A high threshold (greater than the 80% threshold previously used to cluster LTTRs in P. aeruginosa
