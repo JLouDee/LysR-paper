@@ -12,8 +12,8 @@ was used initially in order to ensure that each group represented a close homolo
 - Construction of Representative LTTR Tree. <br>
 **Programs used: muscle, Phyml online tool, itol web-based tool.**<br>
 A sequence alignment was carried out on the representative LTTR proteins sequences using the default parameters of the multiple alignment tool MUSCLE v3.8.31. <br>
-<i> biolinux@biolinux-VirtualBox[Creating_Fig1]  muscle -in seqs -phyiout reps_muscle <i> <br>
-The MUSCLE output was then used to create a cluster tree. A Maximum-Likelihood tree was built with PhyML v3.0.1 <i> http://www.atgc-montpellier.fr/phyml/ <i> using the WAG amino acid substitution model of evolution and four categories of substitution rates. Branch supports were evaluated using the approximate likelihood-ratio test (aLRT). Phyml outputs a Newick file which was visualised and exported using the web-based tool Interactive Tree Of Life <i>https://itol.embl.de/ <i> (iTOL v4.4.2).
+biolinux@biolinux-VirtualBox[Creating_Fig1]  muscle -in seqs -phyiout reps_muscle  <br>
+The MUSCLE output was then used to create a cluster tree. A Maximum-Likelihood tree was built with PhyML v3.0.1 http://www.atgc-montpellier.fr/phyml/ using the WAG amino acid substitution model of evolution and four categories of substitution rates. Branch supports were evaluated using the approximate likelihood-ratio test (aLRT). Phyml outputs a Newick file which was visualised and exported using the web-based tool Interactive Tree Of Life https://itol.embl.de/ (iTOL v4.4.2).
 
 
 - Analysis of the distribution of LTTRs across the P. aeruginosa pangenome. <br>
