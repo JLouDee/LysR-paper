@@ -31,13 +31,11 @@ A CD Hit using a sequence identity threshold of 100% using the same parameters a
 The standard McDonald– Kreitman test was performed on full length LTTR nucleotide sequences of the most variable LTTRS in P. aeruginosa. <br>
 ID numbers from the AA sequences were extracted which made a list of IDs. <br>
 biolinux@biolinux-VirtualBox[MKT] perl -ne 'if(/^>(\S+)/){print "$1\n"}' 112 > 112_ids <br>
-
-
-  DNA sequences with the ID numbers were then extracted from the fasta file containing all DNA sequences. <br>
-  biolinux@biolinux-VirtualBox[MKT] perl -ne 'if(/^>(\S+)/){$c=$i{$1}}$c?print:chomp;$i{$_}=1 if @ARGV' 0_ids all_dna_sequences > 0_reps <br>
-  The neutrality index (NI) was calculated based on the ratio of polymorphisms to substitutions as follows: NI = (Pn/Ps)/(Dn/Ds), where P signifies polymorphism within the species and D represents divergence between species. The sequences 
-  were obtained from the JGI IMG database, and the outliers used were P. fluorescens and Pseudomonas sp. AK6U.  Two housekeeping genes (rpoD, gyrB) were also selected as controls for this analysis and their sequences were obtained using 
-  the Pseudomonas database and BLASTn.
+DNA sequences with the ID numbers were then extracted from the fasta file containing all DNA sequences. <br>
+biolinux@biolinux-VirtualBox[MKT] perl -ne 'if(/^>(\S+)/){$c=$i{$1}}$c?print:chomp;$i{$_}=1 if @ARGV' 0_ids all_dna_sequences > 0_reps <br>
+The neutrality index (NI) was calculated based on the ratio of polymorphisms to substitutions as follows: NI = (Pn/Ps)/(Dn/Ds), where P signifies polymorphism within the species and D represents divergence between species. The sequences 
+were obtained from the JGI IMG database, and the outliers used were P. fluorescens and Pseudomonas sp. AK6U.  Two housekeeping genes (rpoD, gyrB) were also selected as controls for this analysis and their sequences were obtained using 
+the Pseudomonas database and BLASTn.
 
 6) Construction of the PqsR Cluster Tree with metadata. <br>
 **Programs used:cd-hit, muscle, R with Rstudio: tidyverse package, itol web-based tool.**<br>
