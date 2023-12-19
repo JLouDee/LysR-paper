@@ -1000,6 +1000,7 @@ yeie1 <- data.frame(Cluster_Number= 0:16,
 yeie1$Cluster_Number <- as.factor(yeie1$Cluster_Number)
 set.seed(15887)
 
+# create colour palettes
 colourCount11 = length(unique(bauR$Cluster_Number))
 colourCount12 = length(unique(cysB$Cluster_Number))
 colourCount13 = length(unique(metR$Cluster_Number))
@@ -1011,7 +1012,7 @@ colourCount18 = length(unique(PA3122$Cluster_Number))
 colourCount19 = length(unique(PA5437$Cluster_Number))
 colourCount20 = length(unique(yeie1$Cluster_Number))
 
-
+# create pie charts
 bauR_pie <- ggplot(bauR,aes(x="",y=Number_of_Sequences,fill=Cluster_Number)) + geom_bar(width=1,stat="identity") + coord_polar("y",start=0) +ggtitle("BauR")+scale_fill_manual(values = getPalette(colourCount11)) + theme_void() +theme(legend.position = "none")
 cysB_pie <- ggplot(cysB,aes(x="",y=Number_of_Sequences,fill=Cluster_Number)) + geom_bar(width=1,stat="identity") + coord_polar("y",start=0) +ggtitle("CysB")+scale_fill_manual(values = getPalette(colourCount12))+ theme_void() + theme(legend.position = "none")
 metR_pie <- ggplot(metR,aes(x="",y=Number_of_Sequences,fill=Cluster_Number)) + geom_bar(width=1,stat="identity") + coord_polar("y",start=0) +ggtitle("MetR") +scale_fill_manual(values = getPalette(colourCount13))+theme_void()+theme(legend.position = "none")
@@ -1023,6 +1024,9 @@ PA3122_pie<- ggplot(PA3122,aes(x="",y=Number_of_Sequences,fill=Cluster_Number)) 
 PA5437_pie <- ggplot(PA5437,aes(x="",y=Number_of_Sequences,fill=Cluster_Number)) + geom_bar(width=1,stat="identity") + coord_polar("y",start=0) +ggtitle("PA5437")+scale_fill_manual(values = getPalette(colourCount19))+ theme_void()+theme(legend.position = "none")
 yeie1_pie <- ggplot(yeie1,aes(x="",y=Number_of_Sequences,fill=Cluster_Number)) + geom_bar(width=1,stat="identity") + coord_polar("y",start=0) +ggtitle("PA3398") +scale_fill_manual(values = getPalette(colourCount20))+theme_void()+theme(legend.position = "none")
 
+
+
+# arrange them
 require(gridExtra)
 grid.arrange(oxyR_pie ,
              PA0528_pie,
