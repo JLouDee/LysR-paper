@@ -1,5 +1,0 @@
-1. CD Hit at 100%
-
-2. Variance of each of the individual LTTRs was calculated by dividing the number of “clusters” of identical sequences (Vn) by the total number of homologues in the sequenced strains (Sn).
-
-3. Core top 10 least and most variable LTTRs were identified with results tabulated and formatted using the tidyverse package v1.3.0 and pie-charts were created using ggplot2 in Rstudio. 
