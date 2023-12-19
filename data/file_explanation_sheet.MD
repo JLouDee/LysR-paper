@@ -6,19 +6,19 @@
 muscle_alignment.zip - resulting muscle file of 748 representative sequences <br>
 
 
-** BLAST_and_DNA_seqs ** <br>
+**BLAST_and_DNA_seqs** <br>
 BLAST_screenshots_most_variable.zip - <br>
 Blast results.xlsx - <br>
 all_dna_sequences.zip - <br>
 sequences_to_blast.zip - <br>
 
 
-** Distribution_cdhit80 ** <br>
+**Distribution_cdhit80** <br>
 distribution_80.csv <br>
 plots_file.R <br>
 
 
-** Genomes_and_isolates_data ** <br>
+**Genomes_and_isolates_data** <br>
 ALL_GENES_AND_GENOMES.csv <br>
 ID_FILES-20220518T094537Z-001.zip <br>
 ITOL Scripts-20220518T094541Z-001.zip <br>
@@ -33,13 +33,13 @@ geneids_and_genomes.csv <br>
 isolates.xlsx <br>
 
 
-** PqsR ** <br>
+**PqsR** <br>
 Isolates Tree-20220518T102238Z-001.zip <br>
 all_pqsr_80 <br>
 pqsr_seqs_80 <br>
 pqsr_seqs_80.clstr <br>
 
-** Variability ** <br>
+**Variability** <br>
 80__top_and_lowest_ten_variable.R <br>
 LEAST VAR.png <br>
 MOST  VAR.png <br>
@@ -50,12 +50,12 @@ lowest_ten_80.xlsx <br>
 most_variable.xlsx <br>
 variability_within_clusters_new..xlsx <br>
 
-** clade_information ** <br>
+**clade_information** <br>
 CLADE TABLE.xlsx <br>
 clade_info.xlsx <br>
 
 
-** mkt ** <br>
+**mkt** <br>
 HOUSEKEEPING GENES.xlsx <br>
 Housekeeping Genes_Outliers-20220518T093641Z-001.zip <br>
 Updated McDonald Kreitman Results (1).xlsx <br>
@@ -66,6 +66,6 @@ recA-updated.txt <br>
 rpoD-updated.txt <br>
 
 
-** screenshots ** <br>
+**screenshots** <br>
 MkT screenshot.jpg <br>
 phyml_parameters_screenshot.JPG <br>
