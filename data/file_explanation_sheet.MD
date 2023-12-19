@@ -1,5 +1,5 @@
 
-** 748 LTTR representative proteins ** <br>
+**748 LTTR representative proteins** <br>
 748_clusters.zip - 748 clusters with all sequences included <br>
 748_seqs.zip - 748 representative sequences <br>
 86k_seqs.zip - all seqeunces extracted from database <br>
