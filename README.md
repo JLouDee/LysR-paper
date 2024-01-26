@@ -5,8 +5,7 @@ Using Github as a place to show methods & resulting data for research paper:  <i
 **Programs used: cd-hit, command line ubuntu**<br>
 LTTR protein sequences were retrieved from all of the 699 available permanent, draft and finished P. aeruginosa genomes in the Integrated Microbial Genomes (IMG). The following protein conserved domain families with accession numbers COG0583, Pfam00126 and Pfam03466 were applied to identify ~260k LTTR homologues. These LTTR amino acid sequences were then filtered by removing duplicate sequences and sequences less than 150 amino acids and larger than 350 amino acids using the Biolinux command line.  The LTTR proteins (~86,000) were clustered into groups using the CD Hit program v4.6 (+OpenMP)  which uses a greedy clustering algorithm to group sequences together based on their length and similarity. A sequence identity threshold of 95% was used to cluster the sequences into groups with one representative LTTR per group. <br>
 <i> biolinux@biolinux-VirtualBox[biolinux] cd-hit -i galaxy_no_duplicates.fa -o seqs -c 0.95 -n 5 -M 0 <i> <br>
-A high threshold (greater than the 80% threshold previously used to cluster LTTRs in P. aeruginosa
-was used initially in order to ensure that each group represented a close homology set and that divergence of homologous LTTR proteins could be captured. Therefore, each of these groups represents a unique LTTR and its closest homologues.
+
 
 2) Construction of Representative LTTR Tree. <br>
 **Programs used: muscle, Phyml online tool, itol web-based tool.**<br>
