@@ -45,3 +45,12 @@
 - <i>McDonald Kreitman Results.xlsx<i> Results in excel format. <br>
 - <i>MkT screenshot.jpg<i> Screenshot showing parameters used when using MkT online tool. <br>
 - <i>dna_seqs-20220518T093621Z-001.zip<i> LTTR DNA sequences used for test. <br>
+
+**data/supplementary_files** <br>
+- <i>Supplementary File S1.xlsx<i> Cluster datasets with IMG assignment number. <br>
+- <i>Supplementary File S2.xlsx<i> 80% CD-Hit cluster representation. <br>
+- <i>Supplementary File S4.xlsx<i> Top 10 most conserved and top 10 most variable cluster designations. <br>
+- <i>Supplementary File S8.xlsx<i> PA14 variance and variant dataset following DIAMOND BLASTP. <br>
+
+
+
